@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /demo
+  tomcat:
+    accept-count: 500
+    min-spare-threads: 20
+    max-threads: 500
+
+logging:
+  file:
+    path: logs/info.log
+
+spring:
+  redis:
+    host: xukenantop.redis.rds.aliyuncs.com
+    port: 63799
+    database: 0
+    password: Xukenan11
